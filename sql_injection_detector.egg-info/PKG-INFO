@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: sql-injection-detector
-Version: 0.1.1
+Version: 1.0
 Summary: A library to detect SQL injection attempts
 Home-page: https://github.com/akshaynair5/SQL_Injection_detector
 Author: Akshay Nair
