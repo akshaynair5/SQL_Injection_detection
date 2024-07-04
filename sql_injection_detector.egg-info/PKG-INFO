@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: sql-injection-detector
+Version: 0.1
+Summary: A library to detect SQL injection attempts
+Home-page: https://github.com/yourusername/SQL_Injection_detector
+Author: Akshay Nair
+Author-email: aks7aynair@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# SQL Injection Detector
+
+A Python library to detect SQL injection attempts using machine learning.
+
+## Installation
+
+```bash
+pip install sql_injection_detector
+
+from sql_injection_detector.detector import SQLInjectionDetector
+
+detector = SQLInjectionDetector()
+detector.load_model()
+result = detector.predict("SELECT * FROM users WHERE user_id = 1 OR 1=1")
+print("Prediction:", result)
+
