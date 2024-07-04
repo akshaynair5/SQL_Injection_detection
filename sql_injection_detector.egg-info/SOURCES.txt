@@ -1,5 +1,9 @@
+LICENSE.txt
 README.md
 setup.py
+sql_injection_detector/__init__.py
+sql_injection_detector/logger.py
+sql_injection_detector/sql_injection_detector.py
 sql_injection_detector.egg-info/PKG-INFO
 sql_injection_detector.egg-info/SOURCES.txt
 sql_injection_detector.egg-info/dependency_links.txt
