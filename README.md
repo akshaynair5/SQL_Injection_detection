@@ -5,7 +5,7 @@ A Python library to detect SQL injection attempts using machine learning.
 ## Installation
 
 ```bash
-pip install sql_injection_detector
+pip install -i https://test.pypi.org/simple/ sql-injection-detector
 
 from sql_injection_detector.detector import SQLInjectionDetector
 
