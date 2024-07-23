@@ -2,6 +2,8 @@
 
 A Python library to detect SQL injection attempts using machine learning.
 
+
+
 ## Installation
 
 ```bash
