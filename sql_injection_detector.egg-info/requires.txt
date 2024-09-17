@@ -1,7 +1,7 @@
 pandas
 scikit-learn
 numpy
-bson>=0.5.10
+pymongo
 
 [dev]
 pytest>=7.0
