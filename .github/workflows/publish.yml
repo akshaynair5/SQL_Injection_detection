@@ -31,7 +31,7 @@ jobs:
         python setup.py sdist bdist_wheel
 
     - name: Publish to TestPyPI
-      if: github.event_name == 'push' && contains(github.ref, 'refs/heads/')
+      if: startsWith(github.ref, 'refs/heads/')
       env:
         TWINE_USERNAME: __token__
         TWINE_PASSWORD: ${{ secrets.TEST_PYPI_API_TOKEN }}
@@ -45,5 +45,3 @@ jobs:
         TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
       run: |
         twine upload dist/*
-
-

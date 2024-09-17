@@ -8,7 +8,7 @@ setup(
         'pandas',
         'scikit-learn',
         'numpy',
-        "bson >= 0.5.10",
+        'pymongo',
     ],
     author='Akshay Nair',
     author_email='aks7aynair@gmail.com',
