@@ -2,13 +2,13 @@ from setuptools import setup, find_packages
 
 setup(
     name='sql_injection_detector',
-    version='1.1',
+    version='1.1.0.1',
     packages=find_packages(),
     install_requires=[
-        'pandas',
-        'scikit-learn',
-        'numpy',
-        'pymongo',
+        'pandas>=1.0.0',
+        'scikit-learn>=0.24.0',
+        'numpy>=1.18.0',
+        'pymongo>=3.0',
     ],
     author='Akshay Nair',
     author_email='aks7aynair@gmail.com',
